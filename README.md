@@ -38,8 +38,8 @@ The Physiotherapy Program Builder allows physiotherapists to create personalized
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/physiotherapy.git
-    cd physiotherapy
+    git clone https://github.com/yourusername/physio_therapy.git
+    cd physio_therapy
     ```
 
 ### Install Dependencies
@@ -91,10 +91,16 @@ The backend is built with Node.js and Express. It handles:
 
 ### Backend API Endpoints
 
-- **GET /categories**: Retrieve all exercise categories and the exercises under them.
-- **POST /programs**: Save a new exercise program.
-- **GET /programs**: Retrieve all saved exercise programs.
-- **GET /programs/:id**: Retrieve a specific saved exercise program by ID.
+- **POST /api/programs**: Create a new exercise program.
+  
+- **GET /api/programs/:id**: Retrieve a saved exercise program by ID.
+  
+- **GET /api/exercises**: Retrieve all exercises.
+  
+- **GET /api/exercises/:id**: Retrieve a specific exercise by ID.
+  
+- **DELETE /api/exercises/:id**: Delete an exercise by ID.
+
 
 ## License
 
