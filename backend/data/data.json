@@ -1,0 +1,41 @@
+{
+  "exercises": [
+    {
+      "id": 3,
+      "name": "Push Ups",
+      "category": "Upper Body Strengthening",
+      "tags": [
+        "Bodyweight",
+        "Strength"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Planks",
+      "category": "Core Strengthening",
+      "tags": [
+        "Bodyweight",
+        "Endurance"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Lunges",
+      "category": "Lower Limb Strengthening",
+      "tags": [
+        "Bodyweight",
+        "Strength"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Dumbbell Rows",
+      "category": "Upper Body Strengthening",
+      "tags": [
+        "Dumbbell",
+        "Strength"
+      ]
+    }
+  ],
+  "programs": []
+}
